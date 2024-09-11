@@ -147,6 +147,94 @@ footer {
 	object-fit: cover;
 }
 
+/* services */
+
+.services-hero {
+	background-image: url(../img/service/car-3126964_1280.jpg);
+	background-position: 0 75%;
+}
+
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+.service-hero-box p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+.box-one {
+	background-image: url(../img/service/engine.jpg);
+}
+.box-two {
+	background-image: url(../img/service/visual.jpg);
+}
+.box-three {
+	background-image: url(../img/service/car-audio.jpg);
+}
+.box-four {
+	background-image: url(../img/service/allinone.jpg);
+}
+
+/* projects */
+
+.projects-hero {
+	background-image: url(../img/projects/project-hero.jpg);
+	background-position: center;
+}
+
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+
+.projects .btn {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+/* contact */
+
+.contact-hero {
+	background-image: url('../img/shelby-3821715_1280.jpg');
+	background-position: 0 40%;
+}
+
+.contact h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.6rem;
+}
+
+.contact-logo {
+	font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+	font-size: 1.6rem;
+}
+
+.contact .btn {
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+
+.contact-map iframe{
+	width: 100%;
+	min-height: 400px;
+}
+
+
+
 @media (min-width: 992px) {
 	.aboutus-info .container {
 		padding: 0;
